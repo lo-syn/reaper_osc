@@ -5,7 +5,7 @@ import numpy as np
 import math
 
 hostname = socket.gethostname()
-#ip_address = socket.gethostbyname(hostname)
+ip_address = socket.gethostbyname(hostname)
 ip_address = '192.168.7.2 '
 
 print(f"Hostname: {hostname}")
