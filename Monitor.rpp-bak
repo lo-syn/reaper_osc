@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.78/win64" 1706282707
+<REAPER_PROJECT 0.1 "6.78/win64" 1706282919
   <NOTES 0 2
   >
   RIPPLE 0
@@ -18,7 +18,7 @@
   PANMODE 3
   CURSOR 0
   ZOOM 44.04456343110489 0 0
-  VZOOMEX 19.49279404 21
+  VZOOMEX 19.49279404 15
   USE_REC_CFG 0
   RECMODE 2
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -116,23 +116,23 @@
     <ITEM
       POSITION 0.5
       SNAPOFFS 0
-      LENGTH 5
+      LENGTH 1
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {385DD5B8-C89A-4CFF-9156-8C8D020A0909}
-      IID 519
-      NAME "1kHz 5secs.wav"
+      IGUID {62EA0E4C-DFC2-4D8C-8A60-E69AABF15130}
+      IID 521
+      NAME "1kHz 1sec.wav"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {2D13482A-E1FE-4640-B4DF-DCD3B6782363}
+      GUID {E01D4FF4-A718-44BC-98FE-B82F2D840F93}
       <SOURCE WAVE
-        FILE "Media\1kHz 5secs.wav"
+        FILE "C:\Users\laurence.porter\Documents\Test_Development\X2\X2 - Power\1kHz 1sec.wav"
       >
     >
   >

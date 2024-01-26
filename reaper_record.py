@@ -14,7 +14,7 @@ client = reaper_client_setup(port = 8000)
 
 time.sleep(1) # Required to let UDP Client initialise
 reaper_record(client)
-time.sleep(3)
+time.sleep(2)
 reaper_stop(client)
 time.sleep(1)
 process.terminate()
@@ -23,14 +23,14 @@ print("Terminated")
 SCALE_V = 11 / (2**15)
 SCALE_I = 3 / (2**15)
 
-file = glob.glob('./Media/*.wav')
+file = glob.glob('./reaper_osc/Media/*.wav')
 
 samplerate, data = wavfile.read(file[0])
-test = os.listdir('./Media/')
+test = os.listdir('./reaper_osc/Media/')
 
 for item in test:
     if item.endswith(".wav") or item.endswith(".reapeaks"):
-        os.remove(os.path.join('./Media/', item))
+        os.remove(os.path.join('./reaper_osc/Media/', item))
 
 length = data.shape[0] / samplerate
 time = np.linspace(0., length, data.shape[0])
